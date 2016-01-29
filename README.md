@@ -30,3 +30,10 @@ Angular开发组原本宣称只支持 IE11+，在本书定稿后已经把兼容�
 
 ## 部分电子版的勘误
 有些电子版中把命令中的空格丢掉了，如`npm install-g`，应该为`npm install -g`，如果发现命令无法直接粘贴查看，请查查是否遗漏了空格。
+
+## P252
+`angular.module('com.ngnice.app').controller('demoService',function(){});`
+应该改为：
+`angular.module('com.ngnice.app').service('demoService',function(){});`
+
+感谢网友`iceconfig`的指正！
