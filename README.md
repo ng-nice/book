@@ -37,3 +37,9 @@ Angular开发组原本宣称只支持 IE11+，在本书定稿后已经把兼容�
 `angular.module('com.ngnice.app').service('demoService',function(){});`
 
 感谢网友`iceconfig`的指正！
+
+## P20
+
+两处`$urlRouterProvider.state(`应改为`$stateProvider.state(`。均为笔误。
+
+感谢网友`ltyely`的指正！
