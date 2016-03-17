@@ -15,6 +15,8 @@
 
 # 重要通知
 
+一些读者反映安装FrontJet有困难，我做了一些改进，它支持在Node 5下运行。由于Node 5.x 版本的NPM工具有了显著提升，所以安装到一半儿被卡住等问题都解决了。请获取最新版FrontJet源码，并在它的目录下运行npm link。但是仍然需要翻墙，因为phantomjs的下载源被墙了。
+
 部分书友反映安装front-jet失败，这是因为fj依赖了很多第三方库，安装时容易出现问题，特别是网络不好的时候。所以我制作了Windows下的离线安装包，链接: <http://pan.baidu.com/s/1mgZ3FMK>，密码: q5v5。先确保本地的NodeJS是4.x版本（注意：离线安装包不支持其它版本的NodeJS），然后把它解压到一个目录，然后把这个目录加入环境变量PATH中即可 —— 注意，添加完PATH之后要重新开cmd窗口才会生效。
 
 如果安装后运行时出现`The 'libsass' binding was not found`错误，请进入`node_modules/gulp-sass`目录，然后运行`npm rebuild node-sass`即可。
@@ -43,3 +45,9 @@ Angular开发组原本宣称只支持 IE11+，在本书定稿后已经把兼容�
 两处`$urlRouterProvider.state(`应改为`$stateProvider.state(`。均为笔误。
 
 感谢网友`ltyely`的指正！
+
+## P12
+
+第一行cpnm 应为cnpm，为笔误。
+
+感谢网友`sally2015`的指正！
