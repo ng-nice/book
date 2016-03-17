@@ -51,3 +51,7 @@ Angular开发组原本宣称只支持 IE11+，在本书定稿后已经把兼容�
 第一行cpnm 应为cnpm，为笔误。
 
 感谢网友`sally2015`的指正！
+
+## P208
+
+ng-bing 应为 ng-bind
